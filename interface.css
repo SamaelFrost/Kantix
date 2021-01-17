@@ -166,3 +166,25 @@ body
     left: 25.5%;
 }
 
+.GreyResourcesStyle
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #404040;
+    flex: 100%
+}
+
+.BlackResourcesStyle
+{
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+    flex: 100%;
+}
+
+.perSec
+{
+    display: flex;
+    flex: 33%;
+    flex-direction: row-reverse;
+}
