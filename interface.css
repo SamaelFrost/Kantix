@@ -12,6 +12,7 @@ body
 {
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 
 .main
@@ -34,7 +35,6 @@ body
     outline-width: 2px;
     outline-color: white;
     overflow: auto;
-    -ms-overflow-style: none;
 }
 
 .eventPanel::-webkit-scrollbar
@@ -46,12 +46,19 @@ body
 {
     background-color: blue;
     width: 25%;
+    height: 79vh;
     overflow: auto;
+    -ms-overflow-style: none;
+}
+
+.leftPanel::-webkit-scrollbar
+{
+    display: none;
 }
 
 .rightPanel
 {   
-    background-color: blue;
+    background-color: brown;
     width: 75%;
     overflow: auto;
 }
