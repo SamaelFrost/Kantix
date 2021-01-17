@@ -7,7 +7,7 @@ html
     margin: 0;
     padding: 0;
     height: 100%;
-    font-size: 2.3vh;
+    font-size: 2vh;
 }
 
 body
@@ -187,4 +187,18 @@ body
     display: flex;
     flex: 33%;
     flex-direction: row-reverse;
+}
+
+.resourcesQty
+{
+    display: flex;
+    flex: 33%;
+    justify-content: center;
+}
+
+.resourcesName
+{
+    display: flex;
+    flex: 33%;
+    flex-direction: row;
 }

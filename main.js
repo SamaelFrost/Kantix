@@ -113,6 +113,7 @@ function netResources() { //Calcul de la production par seconde
 var resourcesActualColor = "white"
 var researchActualColor = "white"
 var diplomacyActualColor = "white"
+resourcesTab()
 
 function resourcesTab()
 {
